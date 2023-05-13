@@ -9,16 +9,16 @@ on:
         -main
   workflow_dispatch:
 jobs:
-  first_job:
-    runs_on: ubuntu-latest
+  firstjob:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: hello world
         run: echo "Hello World"
         shell: bash
         
-  goodbye:
-    runs_on: ubuntu-latest
+  secodjob:
+    runs-on: ubuntu-latest
     steps:
       - name: hello world
         run: echo "Hello World"
